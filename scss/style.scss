@@ -151,17 +151,28 @@ ul{
 			width: 25%;
 		}
 	}
-
-
 	.copyright{
 		text-align: center;
+		margin: 0;
 	}
 }
 
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
-
+h1{
+	color: $mangotango;
+	font-size: 34px;
+	text-align: center;
+	font-weight: normal;
+	background-image: url(img/tituloBG.png);
+	background-repeat: repeat-x;
+	background-position: center center;
+	span{
+		background-color: $white;
+		padding: 0 2rem;
+	}
+}
 
 
 /*------------------------------------*\

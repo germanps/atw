@@ -126,11 +126,24 @@ ul {
     .footer .widgets .col-3 {
       width: 25%; }
   .footer .copyright {
-    text-align: center; }
+    text-align: center;
+    margin: 0; }
 
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+h1 {
+  color: #DF7900;
+  font-size: 34px;
+  text-align: center;
+  font-weight: normal;
+  background-image: url(img/tituloBG.png);
+  background-repeat: repeat-x;
+  background-position: center center; }
+  h1 span {
+    background-color: #fff;
+    padding: 0 2rem; }
+
 /*------------------------------------*\
     IMAGES
 \*------------------------------------*/
