@@ -29,7 +29,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #444; }
 
 /* clear */
@@ -115,6 +115,19 @@ ul {
 
 /* sidebar */
 /* footer */
+.footer {
+  background-color: #3d3d3d;
+  border-top: 6px solid #DF7900;
+  padding: 20px 0;
+  color: #fff; }
+  .footer .widgets {
+    display: flex;
+    justify-content: flex-start; }
+    .footer .widgets .col-3 {
+      width: 25%; }
+  .footer .copyright {
+    text-align: center; }
+
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/

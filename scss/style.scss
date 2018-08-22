@@ -33,7 +33,7 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 14px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color:#444;
 }
 /* clear */
@@ -139,7 +139,23 @@ ul{
 }
 /* footer */
 .footer {
+	background-color: $mineshaft;
+	border-top: 6px solid $mangotango;
+	padding: 20px 0;
+	color: $white;
 
+	.widgets{
+		display: flex;
+		justify-content: flex-start;
+		.col-3{
+			width: 25%;
+		}
+	}
+
+
+	.copyright{
+		text-align: center;
+	}
 }
 
 /*------------------------------------*\
