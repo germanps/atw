@@ -24,7 +24,7 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-	
+
 		<!-- header -->
 		<header class="header clear" role="banner">
 			<!-- wrapper -->
@@ -47,6 +47,16 @@
 
 		</header>
 		<!-- /header -->
+
+		<!-- Imagen destacada(se ejecuta si estamos en una page-->
+		<?php if(is_page()){ ?>
+			<?php $destacada = wp_get_attachment_image_src( get_post_thumbnail_id(), 'full') ?>
+			<?php $destacada = $destacada[0]; ?>
+		<?php } ?> 
+		
+		<div class="img-fade" style="background-image: url(<?php echo $destacada; ?>)">
+			<div class="fade"></div>
+		</div> 
 
 		<!-- wrapper -->
 		<div class="wrapper">

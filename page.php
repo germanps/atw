@@ -11,6 +11,11 @@
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+				<!-- <div class="img-fade">
+					<div class="fade"></div>
+					<?php //the_post_thumbnail(); ?>
+				</div> -->
+
 				<?php the_content(); ?>
 
 
